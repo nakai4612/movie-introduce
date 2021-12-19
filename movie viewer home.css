@@ -1,0 +1,51 @@
+.center{
+    font-size: 56px;
+    color:dimgray;
+}
+/*主題*/
+.list {
+    margin: 2em auto;
+    padding: 1em;
+    width: 90%;
+    border: 1px solid #ccc; /* 枠線 */
+    background-color: #fff; /* 背景色 */
+    box-shadow: 1px 1px 2px #ccc;
+   }
+   /*カテゴリー分け*/
+.text {
+    margin: 2em auto;
+    padding: 1em;
+    width: 90%;
+    border: 1px solid #ccc; /* 枠線 */
+    background-color:#ccc; /* 背景色 */
+    box-shadow: 1px 1px 2px #ccc;
+   }
+   .ranking{
+     position:relative;
+     padding: 20px;
+   }
+   /*説明文(ホームのみ)*/
+   .coment {
+    position: relative;
+    margin: 3em auto;
+    padding: 1.2em 1em 1em;
+    width: 90%;
+    background-color:#fff; /*BOX背景色 */
+    border: 2px solid #8d93c8; /* 枠線の太さ・色 */
+    box-shadow: 2px 2px 2px #ccc; /* 影の色 */
+   }
+     /*更新履歴(ホームのみ)*/
+   .coment-tab {
+    position: absolute;
+    display: inline-block;
+    top: -28px; /*タブ調整 */
+    left: -2px; /*タブ調整 */
+    padding: 1px 10px;
+    height: 26px;
+    font-weight: bold;
+    color: #fff; /* タイトル色 */
+    background-color: #8d93c8; /* タイトル背景色 */
+    border-radius: 8px 8px 0 0;
+   }
+    
+   
